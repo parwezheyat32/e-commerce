@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+    /* border:2px solid red; */
+}
+
+/* NAVBAR SECTION */
+
+.navbar{
+    width:100vw;
+    /* border:2px solid red; */
+    background-color: rgb(73, 73, 233);
+    color: white;
+    display:flex;
+    flex-direction:row;
+    /* margin: 1.5rem ; */
+    align-items: center;
+    text-align:center
+}
+.navbar-logo{
+    margin-left:8rem;
+    font-size: 1.8rem;
+}
+.navbar-logo:hover{
+    cursor: pointer;
+}
+.search-bar {
+    margin-left:10rem;
+    padding:2rm;
+}
+.search-bar input{
+    border-radius:5rem;
+    width:20rem;
+    height:1.8rem;
+    font-size:1rem;
+}
+.navbar-menu {
+    /* margin:2rem; */
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    margin:1.5rem;
+    margin-left:7rem;
+    list-style-type: none;
+    font-size:1.2rem;
+}
+.navbar-menu li a {
+    margin:2rem;
+}
+.navbar-menu li a:hover {
+    cursor:pointer;
+}
+
+/* MIX-ITEMS SECTION */
+.mix-items{
+    width:100%;
+    height: 148px;
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* margin-left:24px; */
+    font-size: 12px;
+}
+.mix-items:hover{
+    cursor:pointer;
+}
+.Grocery{
+    width: 200px;
+    height: 200px;
+    /* border:2px solid red; */
+    margin:18px;
+}
+.Grocery:hover{
+    cursor: pointer;
+}
+.Mobiles{
+    width: 200px;
+    height: 200px;
+    /* border:2px solid red; */
+    margin:18px;
+}
+.Fashion{
+    width: 200px;
+    height: 200px;
+    /* border:2px solid red; */
+    margin:18px;
+}
+.Electronics{
+    width: 200px;
+    height: 200px;
+    /* border:2px solid red; */
+    margin:18px;
+}
+.Travels{
+    width: 200px;
+    height: 200px;
+    /* border:2px solid red; */
+    margin:18px;
+}
+.Two-wheelers{
+    width: 200px;
+    height: 200px;
+    /* border:2px solid red; */
+    margin:18px;
+}
+
+
+/* ----------------------Electronics----------------------- */
+.elex{
+    width:100%;
+    height:250px;
+    border:2px solid rgb(15, 0, 128);
+}
+/* .electronics{
+    margin:24px 24px;
+    width:200px;
+    height:200px;
+    border:2px solid red;
+    display: flex;
+    text-align:center;
+    align-items: center;
+} */
+
+.elex-items{
+    margin:24px 24px;
+    gap: 150px;
+    display:flex;
+    flex-direction:row;
+    border: 2px solid red;
+    width:200px;
+    height: 200px;
+    align-items: center;
+    text-align:center;
+    box-shadow: 12px 12px 8px grey; /*horizontal vetical blur shadow-color (inset-turn shadow to upper side)*/
+    background-color: rgb(171, 231, 231);
+} 
